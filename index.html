@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buurtcampus Krant</title>
+  <link rel="stylesheet" href="https://toasterbath0758.github.io/look-and-feel-styleguide-BCK/styleguide-buurtcampuskrant.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+
+<header class="header-main">
+  <h1 class="site-title">Buurtcampus Krant</h1>
+
+  
+  <button class="hamburger" aria-label="Menu openen">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav id="navList" class="navClosed">
+    <a href="#" class="navKnop nav-zuidoost">Zuidoost</a>
+    <a href="#" class="navKnop nav-oost">Oost</a>
+    <a href="#" class="navKnop nav-nieuw-west">Nieuw-West</a>
+  </nav>
+</header>
+ 
+
+  <h2>Nieuws</h2>
+
+  <main class="news-grid">
+    <!-- Zuidoost artikel -->
+    <article class="artikel zuid-oost">
+      <img src="assets/DSC08822_web.png" alt="Jubileum OBA Ganzenhoef">
+      <h3>Buurtcampus Zuidoost</h3>
+      <p>Op woensdag 24 september vieren we feest in Amsterdam Zuidoost: het éénjarig bestaan van OBA Ganzenhoef, dé jeugd- en jongerenbibliotheek van Zuidoost. Deze mijlpaal laten we natuurlijk niet ongemerkt voorbijgaan. OBA Ganzenhoef is meer dan alleen een bibliotheeklocatie; het is ook de thuisbasis van de Buurtcampus Zuidoost, waar het hele jaar door diverse activiteiten worden georganiseerd voor en samen met de buurt.</p>
+      <a href="ganzenhoef.html" class="lees-meer">Lees meer</a>
+    </article>
+
+    <!-- Oost artikelen -->
+    <article class="artikel oost">
+      <img src="assets/Beweging.png" alt="Ouderen sporten tijdens natuurwandeling">
+      <h3>Buurtcampus Oost</h3>
+      <p>Buurtcampus Oost heeft studenten van de opleiding IPZ gevraagd om vanaf oktober tot half januari elke woensdagochtend van 10.00 tot 11.00 een Natuurwandeling in het Frankendaelpark te organiseren. Aansluitend kunnen buurtbewoners koffie of thee drinken bij OBA Linnaeus tijdens <em>Bakkie in de Bieb</em>.</p>
+      <a href="#" class="lees-meer">Lees meer</a>
+    </article>
+
+    <article class="artikel oost">
+      <img src="assets/Binnentuin+Elixer+(1).png" alt="Buurttuin in Amsterdam Oost">
+      <h3>Buurtcampus Oost</h3>
+      <p>Bij restaurant Elixer in Amsterdam Oost wordt gewerkt aan een informatieve buurttuin: een plek waar buurtbewoners samenkomen, tot rust komen en leren over eetbare natuur, gezondheid en de korte voedselketen. Studenten van Voeding en Diëtetiek betrekken buurtbewoners actief bij het project.</p>
+      <a href="#" class="lees-meer">Lees meer</a>
+    </article>
+
+    <!-- Nieuw-West artikel -->
+    <article class="artikel nieuw-west">
+      <img src="assets/04_sept_2025_Opening_Onderzoek_OBA_UVA_BC_.00_01_38_21.Still005.png" alt="Tentoonstelling OBA Geuzenveld">
+      <h3>Buurtcampus Nieuw-West</h3>
+      <p>In OBA Geuzenveld is de tentoonstelling <em>Talen van Amsterdam</em> te zien. Een samenwerking tussen de Buurtcampus, de UvA en de HvA. De tentoonstelling laat zien hoe rijk de talen in Nieuw-West zijn, vastgelegd in kleurrijke taalportretten door studenten en buurtbewoners.</p>
+      <a href="#" class="lees-meer">Lees meer</a>
+    </article>
+  </main>
+
+  <!-- Formulier -->
+  <section id="formulieren">
+    <form class="contact-form">
+      <p>
+        <label>E-mail:</label>
+        <input type="text" class="input-field">
+      </p>
+      <p>
+        <label>Bericht:</label>
+        <textarea class="textarea-input-field" rows="4"></textarea>
+      </p>
+      <fieldset>
+        <legend>Kies een buurt:</legend>
+        <label><input type="radio" name="radio-options" value="option 1" checked> Zuid-Oost</label>
+        <label><input type="radio" name="radio-options" value="option 2"> Oost</label>
+        <label><input type="radio" name="radio-options" value="option 3"> Nieuw-West</label>
+      </fieldset>
+      <p>
+        <label>Upload bestand:</label>
+        <input type="file" class="input-field" accept="image/*,video/*">
+      </p>
+      <p>
+        <input type="submit" value="Verstuur" class="submit-button">
+      </p>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Buurtcampus Krant
+  </footer>
+
+</body>
+</html>
