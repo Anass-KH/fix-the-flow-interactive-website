@@ -13,7 +13,5 @@ document.addEventListener("DOMContentLoaded", () => {
     // 5. Voegt of verwijderd de class open Wanneer open aanwezig is het menu zichtbaar zo niet is het hidden.
     nav.classList.toggle("open");
 
-    // 6. Voeg of verwijder de class "active" op de hamburgr
-    hamburger.classList.toggle("active");
   });
 });
