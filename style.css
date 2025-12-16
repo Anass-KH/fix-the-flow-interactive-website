@@ -209,6 +209,9 @@ img {
   }
 }
 
+#formulieren h2 {
+  text-align: center;
+}
 
 .contact-form {
   max-width: 550px;
@@ -228,6 +231,7 @@ img {
     border: 1px solid #ccc;
   }
 
+  
   .submit-button {
     padding: 10px 20px;
     border-radius: 2rem;
