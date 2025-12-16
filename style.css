@@ -67,19 +67,24 @@ img {
 
     .navKnop {
       position: relative;
+      padding-right: 2.5rem;
       padding: 0.5rem 1rem;
       font-weight: bold;
       color: var(--color3);
       border-radius: 5rem;
       transition: all 0.3s ease;
+      padding: 0.4em 2.2em 0.4em 1em;
+      border-radius: 0;
+      clip-path: polygon(
+         90% 0,
+        100% 50%,
+        90% 100%,
+        0 100%,
+        0 0
+      )
+      
 
-      &:hover::after {
-        content: "🏳️";
-        position: absolute;
-        right: -1.5rem;
-        top: 50%;
-        transform: translateY(-50%);
-      }
+      
     }
   }
 }
